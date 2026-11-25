@@ -71,6 +71,7 @@ static def getCurrentDate() {
 }
 
 dependencies {
+        implementation 'com.google.android.gms:play-services-ads:23.6.0'
     implementation 'androidx.core:core-ktx:1.18.0'
     implementation 'androidx.palette:palette-ktx:1.1.0'
     implementation 'androidx.exifinterface:exifinterface:1.4.2' // Should be the same version as used for CameraX
